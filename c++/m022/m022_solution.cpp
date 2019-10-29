@@ -11,3 +11,11 @@ int main() {
   reverse(text.begin(), text.end());
   cout << "----- REVERSE -----\n" << text << endl;
 }
+
+// FAQ
+
+// Q: Why is "getline" used instead of "cin"?
+// A: Because using "cin <<" stops reading the input at the first whitespace character.
+
+// Q: Why is the library "bits/stdc++.h" included?
+// A: Because that's where the function "reverse()" is defined.
